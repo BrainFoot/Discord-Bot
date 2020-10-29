@@ -1,0 +1,15 @@
+{
+  "name": "welcomebot",
+  "version": "1.0.0",
+  "description": "WelcomeBot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "7alex",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "discord.js": "12.3.1"
+  }
+}
