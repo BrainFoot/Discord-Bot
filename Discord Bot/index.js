@@ -2,11 +2,17 @@ const Discord = require('discord.js');
 const Canvas = require('canvas');
 const fs = require('fs')
 
+const config = JSON.parse(fs.readFileSync('config.json', 'utf8'))
+
+//discord login...
+
 const client = new Discord.Client();
 
 client.once('ready', () => {
-	console.log('Ready!');
+	console.log('${client.user.username} is Ready!');
 });
+
+//canvas bild generator
 
 const applyText = (canvas, text) => {
 	const ctx = canvas.getContext('2d');
@@ -56,6 +62,18 @@ client.on('guildMemberAdd', async member => {
 client.on('message', message => {
 	if (message.content === '!join') {
 		client.emit('guildMemberAdd', message.member);
+	}
+});
+
+//auto reactions
+client.on("message", async message => {
+	if (message.channel.id === (config.reactsid)){
+		message.react(config.areact)
+	}
+});
+client.on("message", async message => {
+	if (message.channel.id === (config.reactsid)){
+		message.react(config.breact)
 	}
 });
 
