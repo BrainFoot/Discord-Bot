@@ -76,5 +76,6 @@ client.on("message", async message => {
 		message.react(config.breact)
 	}
 });
+//für mehr reactions einfach den code copypasten. Achtung falls die emojis eine bestimme reihenfolge haben sollen dann bitte auch in dieser reihenfolge eintragen!
 
 client.login(config.token);
