@@ -2,5 +2,10 @@
     "token": "your Token",
     "ownerid": "your Id",
     "prefix": "your Prefix",
-    "welchannel": "your Channel(name)"
+    "welchannel": "your Channel(name)",
+    "prefix": "Your Bot prefix",
+    "welchannel": "your Welcomechannel for canvas",
+    "areact" : "your rections emojiid",
+    "breact" : "your rections emojiid",
+    "reactsid" : "your specified channel id for rections"
 }
