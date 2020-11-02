@@ -41,3 +41,6 @@ when you dont have instaled screen use:
 apt-get install screen
 
 For more help join our [Discord](https://discord.gg/GsxjQsj)!
+Tutorials:
+#1 [Klick Here](https://youtu.be/TvLObBezzfw)
+#2 [Klick Here]()
