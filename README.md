@@ -1,6 +1,6 @@
 # WelcomeBot
 Windows install:
-1. Change the welcome channel in the index.js file.
+1. Change the welcome channel in the config.json file.
 2. Change the picture (call the picture wallpaper.jpg)
 3. Insert your token.
 4. Run "npm install"
@@ -13,7 +13,7 @@ Linux install
 1.Clone the rep.
 git clone https://github.com/BrainFoot/WelcomeBot (your name)
 
-2. Change the welcome channel in the index.js file.
+2. Change the welcome channel in the config.json file.
 
 3. Change the picture (call the picture wallpaper.jpg)
 
