@@ -1,8 +1,6 @@
 {
     "token": "your Token",
-    "ownerid": "your Id",
-    "prefix": "your Prefix",
-    "welchannel": "your Channel(name)",
+    "ownerid": "your ID"
     "prefix": "Your Bot prefix",
     "welchannel": "your Welcomechannel for canvas",
     "areact" : "your rections emojiid",
