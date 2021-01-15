@@ -18,7 +18,7 @@ Insert your token.
 Run "npm install" (be sure that you have installed "node.js" on your pc / server.) 
 Run "node index.js" 
 Have fun! 
-
+>
 > Linux install 
 1.Clone the rep. git clone https://github.com/BrainFoot/WelcomeBot (your name) 
 Change the welcome channel in the config.json file.
@@ -26,7 +26,7 @@ Change the picture (call the picture wallpaper.jpg)
 Insert your token. 
 Run "npm install" (be sure that you have installed "node.js" on your pc / server.)
 Run "node index.js"  Have fun! 
- 
+ >
 > Screening: 
  nano start.sh copypasteme: while true; do node index.js done 
  then use: screen -L -S bash start.sh (your screen name) 
