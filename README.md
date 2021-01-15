@@ -20,7 +20,7 @@ Run "node index.js"
 Have fun! 
 >
 > Linux install 
-1.Clone the rep. git clone https://github.com/BrainFoot/WelcomeBot (your name) 
+1.Clone the rep. git clone https://github.com/BrainFoot/Discord-Bot (your name) 
 Change the welcome channel in the config.json file.
 Change the picture (call the picture wallpaper.jpg) 
 Insert your token. 
