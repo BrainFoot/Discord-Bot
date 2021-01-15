@@ -1,46 +1,47 @@
-# WelcomeBot
-Windows install:
-1. Change the welcome channel in the config.json file.
-2. Change the picture (call the picture wallpaper.jpg)
-3. Insert your token.
-4. Run "npm install"
-(be sure that you have installed "node.js" on your pc / server.)
-5. Run "node index.js"
-6. Have fun!
+<h1 align="center">Welcome to Discord Bot 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.2.0-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/npm-%3E%3D5.5.0-blue.svg" />
+  <img src="https://img.shields.io/badge/node-%3E%3D9.3.0-blue.svg" />
+  <a href="https://github.com/kefranabg/readme-md-generator/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/BrainFoot/Discord Bot" />
+  </a>
+</p>
 
-Linux install
+> Windows install:
 
-1.Clone the rep.
-git clone https://github.com/BrainFoot/WelcomeBot (your name)
+### 🏠 [Homepage](https://codingcafe.eu/)
 
-2. Change the welcome channel in the config.json file.
+## Prerequisites
 
-3. Change the picture (call the picture wallpaper.jpg)
+- npm >=5.5.0
+- node >=9.3.0
 
-4. Insert your token.
+## Install
 
-5. Run "npm install"
-(be sure that you have installed "node.js" on your pc / server.)
+```sh
+npm install
+```
 
-6. Run "node index.js"
+## Usage
 
-7. Have fun!
+```sh
+npm run start
+```
 
-Screening:
+## Author
 
-nano start.sh
-copypasteme:
-while true; do
-    node index.js
-done
+👤 **BrainFoot**
 
-then use:
-screen -L -S bash start.sh (your screen name)
+* Website: http://codingcafe.eu/
+* Github: [@BrainFoot](https://github.com/BrainFoot)
 
-when you dont have instaled screen use:
-apt-get install screen
+## Show your support
 
-For more help join our [Discord](https://discord.gg/GsxjQsj)!
-Tutorials:
-#1 [Klick Here](https://youtu.be/TvLObBezzfw)
-#2 [Klick Here](https://youtu.be/I_WJhobusBg)
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
