@@ -12,7 +12,7 @@ client.once('ready', () => {
 	console.log('${client.user.username} is Ready!');
 });
 
-//canvas bild generator
+//canvas picture generator
 
 const applyText = (canvas, text) => {
 	const ctx = canvas.getContext('2d');
@@ -76,6 +76,6 @@ client.on("message", async message => {
 		message.react(config.breact)
 	}
 });
-//für mehr reactions einfach den code copypasten. Achtung falls die emojis eine bestimme reihenfolge haben sollen dann bitte auch in dieser reihenfolge eintragen!
+//for more reactions copy paste the code 
 
 client.login(config.token);
