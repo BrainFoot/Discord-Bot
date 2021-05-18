@@ -77,5 +77,6 @@ client.on("message", async message => {
 	}
 });
 //for more reactions copy paste the code 
+//and dont forget to edit the config.json file
 
 client.login(config.token);
